@@ -32,7 +32,7 @@ Follow these steps to install the extension in Chrome:
 1. Clone or download this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/MajorDP/to-do-list-chrome-extention
 
    ```
 

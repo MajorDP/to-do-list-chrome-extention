@@ -1,0 +1,10 @@
+{
+  "name": "To-Do-List",
+  "version": "1.0.0",
+  "description": "This is a to-do list for your tasks",
+  "manifest_version": 3,
+  "author": "Pavel Nikolov",
+  "action": {
+    "default_popup": "index.html"
+  }
+}

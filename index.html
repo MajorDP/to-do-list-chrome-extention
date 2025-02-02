@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do-List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="header">
+        <p class="header-lg">QuickTasks</p>
+        <p class="header-sm">A To-Do-List</p>
+      </h2>
+      <div class="inputs-container">
+        <div class="input">
+          <label>Add a task</label>
+          <input id="input" placeholder="Start working..." />
+        </div>
+        <div class="input">
+          <label>Add Priority</label>
+          <select id="prioSelector" class="prioSelector">
+            <option value="1">🔴High (Urgent)</option>
+            <option value="2">🟠Medium (Urgent soon)</option>
+            <option value="3">🟢Low (Not Urgent)</option>
+          </select>
+        </div>
+        <div class="btns">
+          <button id="addBtn" disabled>Add Task</button>
+          <button id="clearBtn">Clear All</button>
+        </div>
+      </div>
+      <p>Your current tasks:</p>
+      <ul id="list" class="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
